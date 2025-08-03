@@ -134,3 +134,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Ignore local lockfile changes
+package-lock.json
+pnpm-lock.yaml
+
+# Ignore generated electron files
+dist-electron/WindowHelper.js
+dist-electron/WindowHelper.js.map
